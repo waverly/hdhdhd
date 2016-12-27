@@ -1,0 +1,15 @@
+clone login credentials:
+
+username: hd-clone
+pw: hd-clone-pw
+
+soundcloud token from madeline
+var clientId = "client_id=cda55419e14398c3fcb5a3d5bcaacc2c",
+
+
+instagram api
+Client ID 141cd2463ff14c3186726e7cd36a190b
+Client Secret 04ad91af6a084e27a063bb0b9c837ea5
+
+instagram token:
+491662295.1677ed0.f9bd15fcdb144e458a353ff016177e81
