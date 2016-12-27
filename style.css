@@ -901,12 +901,17 @@ object {
 
 @font-face{
 	font-family: FranklinBold;
-	src: url(http://hdhdhd.net/wp-content/themes/hd2017/fonts/ITCFranklinGothicStd-Demi.otf);
+	src: url(/wp-content/themes/hd2017/fonts/ITCFranklinGothicStd-Demi.otf);
 }
 
 @font-face{
 	font-family: FranklinMedium;
-	src: url(http://hdhdhd.net/wp-content/themes/hd2017/fonts/ITCFranklinGothicStd-Med.otf);
+	src: url(/wp-content/themes/hd2017/fonts/ITCFranklinGothicStd-Med.otf);
+}
+
+@font-face{
+	font-family: FranklinBook;
+	src: url(/wp-content/themes/hd2017/fonts/ITCFranklinGothicStd-Med.otf);
 }
 
 html{

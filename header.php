@@ -33,7 +33,7 @@
 			if ( is_front_page() && is_home() ) : ?>
 			<div id="logo-wrap">
 				<div id="logo">
-				<img src="http://localhost:8888/wordpress/wp-content/uploads/2016/12/hd-logo_black.jpg" alt="HD">
+				<img src="/wp-content/uploads/2016/12/hd-logo_black.jpg" alt="HD">
 				</div>
 				<div id="about-paragraph">
 					<p>HD is a DJ and producer of sound, videos, art and events.She co-founded and runs independent label <span id="Doom-Dab-link">Doom Dab</span>. She manages vocalists Jay Boogie, Rahel & Thurmon Green.</p>

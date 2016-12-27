@@ -139,7 +139,7 @@ get_header(); ?>
 		</section> -->
 		<section id="instagram" class="col-md-6">
 			<div class="circle">
-				<img id="circle-img" src="http://hdhdhd.net/wp-content/uploads/2016/12/insta-bg.png" alt="">
+				<img id="circle-img" src="/wp-content/uploads/2016/12/insta-bg.png" alt="">
 			</div>
 		</section>
 
