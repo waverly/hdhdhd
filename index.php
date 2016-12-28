@@ -16,7 +16,6 @@
 
 get_header(); ?>
 	<section id="draggable-container">
-
 			<?php
 						$args = array(
 						'posts_per_page'   => 15,
@@ -47,7 +46,6 @@ get_header(); ?>
 				the_title('<p>','</p>');
 				echo"</span>";
 			}
-
 			?>
 
 			<?php if ( $the_query->have_posts() ) : ?>
@@ -66,8 +64,6 @@ get_header(); ?>
 					  createNode();
 				}
 				?>
-
-
 			  <?php endwhile; ?>
 			<?php else : ?>
 			<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
@@ -76,12 +72,15 @@ get_header(); ?>
 	</section>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+
 		<section id="soundcloud">
-			<img src="http://hdhdhd.net/wp-content/uploads/2016/12/play-icon.png">
+			<img id="play" src="/wp-content/uploads/2016/12/playicon.png">
+			<img id="pause" class="hidden" src="/wp-content/uploads/2016/12/pauseicon.png">
 			<p id="soundcloudText">
 				<span>Soundcloud</span>
 		 </p>
 		</section>
+
 		<section id="events">
 				<p style="margin-bottom: 1.5rem;">Upcoming Events</p>
 				<?php
@@ -128,50 +127,13 @@ get_header(); ?>
 				<?php else : ?>
 				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 				<?php endif; ?>
-				</section>
+		</section>
 
-
-		<!-- <section id="events">
-			<p style="margin-bottom: 1.5rem;">Upcoming Events</p>
-			<span>12.31.16</span> <span>NYE @ Our Wicked Lady</span>
-			<p>01.13.17 PP benefit @ Knockdown Center</p>
-			<p>01.22.17 MA Ludlow House</p>
-		</section> -->
 		<section id="instagram" class="col-md-6">
 			<div class="circle">
 				<img id="circle-img" src="/wp-content/uploads/2016/12/insta-bg.png" alt="">
 			</div>
 		</section>
-
-		<?php
-		if ( have_posts() ) :
-
-			// if ( is_home() && ! is_front_page() ) : ?>
-			<!-- // 	<header>
-			// 		<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-			// 	</header>
-			// --> <?php
-			// endif;
-			//
-			// /* Start the Loop */
-			// while ( have_posts() ) : the_post();
-			//
-			// 	/*
-			// 	 * Include the Post-Format-specific template for the content.
-			// 	 * If you want to override this in a child theme, then include a file
-			// 	 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-			// 	 */
-			// 	get_template_part( 'template-parts/content', get_post_format() );
-			//
-			// endwhile;
-			//
-			// the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif; ?>
 
 		<div class="contact col-md-6">
 			<p>DJ HD Bookings</br>
@@ -182,7 +144,7 @@ get_header(); ?>
 			<a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">book@hd.com</a>
 		  <p>Doom Dab</p>
 			<a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">HD@doomdab.com</a>
-			<p> For everything else <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">book@hd.com</a>info@hd.com</p>
+			<p> For everything else <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">info@hd.com</a></p>
 		</div>
 
 		</main><!-- #main -->

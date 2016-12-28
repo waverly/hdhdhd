@@ -145,7 +145,7 @@ require get_template_directory() . '/inc/jetpack.php';
 // Bootstrap and jquery includes
 // wp_enqueue_style('bootstrap-css',get_template_directory_uri().'/bootstrap/css/bootstrap.min.css');
 wp_enqueue_style('jqueryui-css',get_template_directory_uri().'/css/jquery-ui.css');
-wp_enqueue_script('jquery-311',get_template_directory_uri().'/js/jquery-3.1.1.js');
+// wp_enqueue_script('jquery-311',get_template_directory_uri().'/js/jquery-3.1.1.js');
 // wp_enqueue_script('bootstrap-js',get_template_directory_uri().'/bootstrap/js/bootstrap.min.js');
 wp_enqueue_script('jquery-ui',get_template_directory_uri().'/js/jquery-ui.js');
 wp_enqueue_script('custom-js',get_template_directory_uri().'/js/custom.js');

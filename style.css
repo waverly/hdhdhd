@@ -1116,3 +1116,12 @@ width: 350px;
 .col-md-6 {
     width: 40%;
 }
+
+.hidden{
+	display: none;
+}
+
+#play, #pause{
+	cursor: pointer;
+	cursor: hand;
+}

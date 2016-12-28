@@ -19,8 +19,5 @@
 
 <?php wp_footer(); ?>
 
-
-<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
-
 </body>
 </html>
